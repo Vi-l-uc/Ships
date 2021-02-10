@@ -102,7 +102,7 @@ class Board:
         return res
     
     def out(self, d):
-        return not((0<= d.x < self.size) and (0<= d.y < self.size))
+        return not((0 <= d.x < self.size) and (0 <= d.y < self.size))
 
     def shot(self, d):
         if self.out(d):
